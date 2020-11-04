@@ -242,21 +242,10 @@ ggplot(data = suabin, aes(x = suabinID, y = suabinm)) +
   ylab("Temporal shared effect") +
   theme_bw() + 
   geom_hline(yintercept = 0, linetype="dashed", 
-                          color = "grey", size=1)
-
-+ theme(axis.text.x = element_text(angle =90 ))+
-  scale_x_continuous(name="Year", limits=c(1, 19), breaks=suabinID, labels=year) +
-  
-  
-  m1
-
-+ theme( axis.text.x = element_blank(),axis.ticks = element_blank()) 
-
-m1
-+ scale_x_discrete(name ="Year", 
+                          color = "grey", size=1) + 
+  scale_x_discrete(name ="Year", 
                    breaks=suabinID, labels=year)
 
-year<-seq(from=2001, to=2019)  
 
 
 ## Projector MATRIX------------------------------------------------------------------------

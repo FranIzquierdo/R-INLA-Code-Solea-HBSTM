@@ -1,11 +1,10 @@
 # R-INLA-Code-Solea-HBSTM
 
-Identifying persistent abundance areas for common sole in the northern Iberian waters
+*"Identifying persistent abundance areas for common sole in the northern Iberian waters"*
 
 In this repository we can find the R-INLA code from the two final Bayesian spatio-temporal models fitted in the manuscript named above.
 
-- Exploratory analysis code not included, Protocol from Zuur et al. (2016) was applied.
-- Selection of spatio temporal structures from Iosu Paradinas can be found [here](https://github.com/FranIzquierdo/R-INLA-Code-Hake-HBSTM/blob/main/0_Spatio_temporal_structure_comparison.R).
+The exploratory analysis code is not included, Protocol from Zuur et al. (2016) was applied. In addition, the selection of spatio temporal structures from Iosu Paradinas can be found [here](https://github.com/FranIzquierdo/R-INLA-Code-Hake-HBSTM/blob/main/0_Spatio_temporal_structure_comparison.R).
 
 1) On the first script, we can find the model fitting process for the catch per unit effort (CPUE) survey data of common sole (Kg), where the response variables are the probability of ocurrence (Binomial) and conditional to presence abundance (Gamma):
 
